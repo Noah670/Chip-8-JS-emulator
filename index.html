@@ -11,12 +11,37 @@
 </head>
 
 <body>
-
+    <h1>Chip-8 Emulator Noah670</h1>
     <canvas>
     
   </canvas>
+    <br>
     <script type="module" src="src/chip-8.js"></script>
+    <script src="src/changeRoms.js"></script>
 
+    <div class="dropdown">
+        <button onclick="accessRoms()" class="dropbtn">Load Game</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a class="anchors" href="https://www.w3schools.com/js/">JavaScript</a>
+            <a id="myAnchor">BLINKY</a>
+            <p id="goodLink">"BLITZ"</p>
+            <a href="#">Link 2</a>
+            <button onclick="getRom()">Cool shit</button>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+
+    <button onClick="getRom()">Test</button>
+    <a id="link" href="#">Test 2</a>
+
+
+    <h2>Controls</h2>
+    <ul class="controls">
+        <li>W Left</li>
+    </ul>
+
+
+    <p id="demo">fortnite</p>
 
 </body>
 
