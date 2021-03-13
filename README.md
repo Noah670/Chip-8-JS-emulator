@@ -17,7 +17,7 @@ A Chip-8 emulator written in JavaScript with multiple games and demos to try out
 
 - Full 60 fps support
 
-- Controller Mapping and test ROM
+- Classic 8-bit sounds
 
 - Offline Support
 
