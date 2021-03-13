@@ -1,4 +1,4 @@
-# [Chip-8-JS-Emulator](https://noah670.github.io/Pure-Breakout/)
+# [Chip-8-JS-Emulator](https://chip-8-js-noah670.herokuapp.com/)
 
 A Chip-8 emulator written in JavaScript
 
@@ -22,3 +22,6 @@ A Chip-8 emulator written in JavaScript
 - Volume controls for game music
 
 - Supports Mouse and Keyboard controls
+
+
+Chip-8-JS-Emulator(https://chip-8-js-noah670.herokuapp.com/)
