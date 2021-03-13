@@ -24,4 +24,14 @@ A Chip-8 emulator written in JavaScript with multiple games and demos to try out
 - Supports Mouse and Keyboard controls
 
 
+## Controls
+
+The CHIP-8 keypad uses the following keyboard mapping:
+
+    1 2 3 4
+    Q W E R
+    A S D F
+    Z X C V
+
+
   [Chip-8-JS-Emulator Noah670](https://chip-8-js-noah670.herokuapp.com/)
