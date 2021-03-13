@@ -9,19 +9,17 @@ A Chip-8 emulator written in JavaScript with multiple games and demos to try out
 
 # Features 
 
-- Multiple lives per game
+- Full Chip-8 emulation
 
-- Dark mode support
+- Load a variety of classic Chip-8 games
 
-- Thanks to [Rezoner](https://opengameart.org/users/rezoner) for creating the Game music
+- Reset option
 
-- Random block color generation 
+- Full 60 fps support
 
-- Dynamic paddle and ball color
+- Controller Mapping
 
-- Volume controls for game music
-
-- Supports Mouse and Keyboard controls
+- Offline Support
 
 
 ## Controls
