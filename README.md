@@ -24,4 +24,4 @@ A Chip-8 emulator written in JavaScript
 - Supports Mouse and Keyboard controls
 
 
-Chip-8-JS-Emulator(https://chip-8-js-noah670.herokuapp.com/)
+[Chip-8-JS-Emulator Noah670](https://chip-8-js-noah670.herokuapp.com/)
