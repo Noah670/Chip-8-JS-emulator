@@ -4,7 +4,7 @@ A Chip-8 emulator written in JavaScript
 
 ![alt-text](https://github.com/Noah670/Chip-8-JS-emulator/blob/master/display/blinky_display_demo.gif)
 
-![alt-text](https://github.com/Noah670/Pure-Breakout/blob/master/display/dark-mode-gameplay.gif)
+![alt-text](https://github.com/Noah670/Chip-8-JS-emulator/blob/master/display/invade_display_demo.gif)
 
 
 # Features 
