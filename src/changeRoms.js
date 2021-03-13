@@ -1,9 +1,3 @@
-/*toggle between hiding and showing the dropdown content*/
-
-//import defaultRom from './chip-8.js';
-//var myModule = require('./chip-8');
-
-
 function accessRoms() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -23,18 +17,15 @@ window.onclick = function(event) {
 }
 
 
-
+function refreshPage() {
+    window.location.reload();
+}
 
 
 function getRom() {
     //let rom = document.getElementsByClassName("anchors")[0].id;
     let rom = document.getElementById("myAnchor").innerHTML;
-    alert(rom);
-
-    
-
-    //console.log(defaultRom);
-    //alert(defaultRom);
-
+    //alert(rom);
+    console.log(rom);
 
 }

@@ -1,7 +1,7 @@
-import Renderer from './renderer.js';
-import Keyboard from './keyboard.js';
-import Speaker from './speaker.js';
-import CPU from './cpu.js';
+import Renderer from "./renderer.js";
+import Keyboard from "./keyboard.js";
+import Speaker from "./speaker.js";
+import CPU from "./cpu.js";
 
 const renderer = new Renderer(10);
 const keyboard = new Keyboard();
@@ -11,10 +11,20 @@ const cpu = new CPU(renderer, keyboard, speaker);
 let loop;
 
 let fps = 60,
-    fpsInterval, startTime, now, then, elapsed;
+    fpsInterval,
+    startTime,
+    now,
+    then,
+    elapsed;
 
 var defaultRom = "BLINKY";
 
+function newRoms() {
+    let rom = document.getElementById("myAnchor").innerHTML;
+    alert(rom);
+    defaultRom = rom;
+    console.log(defaultRom);
+}
 
 
 function init() {
@@ -38,37 +48,100 @@ function step() {
     loop = requestAnimationFrame(step);
 }
 
+var roms = document.getElementsByClassName("view-roms");
 
-//init();
-
-
-
-
-
-function newRoms() {
-    //let rom = document.getElementsByClassName("anchors")[0].id;
-    let rom = document.getElementById("myAnchor").innerHTML;
-    alert(rom);
-
-    defaultRom = rom;
-    console.log(defaultRom);
-}
-
-//export default defaultRom
-//exports = defaultRom;
-
-
-
-
-
-
-var link = document.getElementById('link');
-link.addEventListener('click', editContent);
-
-function editContent() {
-    var editor = document.getElementById('myAnchor').innerHTML;
-    defaultRom = editor;
-    //alert(defaultRom);
+roms[0].addEventListener("click", function() {
+    defaultRom = this.innerText;
     console.log(defaultRom);
     init();
-}
+});
+
+roms[1].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[2].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[3].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[4].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[5].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[6].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[7].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[8].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[9].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[10].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[11].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[12].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[13].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+roms[14].addEventListener("click", function() {
+    defaultRom = this.innerText;
+    console.log(defaultRom);
+    init();
+});
+
+
+/*
+var link = document.getElementById('link');
+link.addEventListener('click', editContent);
+*/

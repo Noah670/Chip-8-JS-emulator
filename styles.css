@@ -9,9 +9,29 @@ canvas {
     background-color: #3498DB;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.resetbtn {
+    background-color: #d41a52;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #FF6F61;
+    color: white;
+    font-size: 30px;
 }
 
 
@@ -36,7 +56,9 @@ canvas {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    color: #ddd;
+    background-color: #2980B9;
+    font-size: 18px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -64,4 +86,35 @@ canvas {
 
 .show {
     display: block;
+}
+
+body {
+    background-color: #F7CAC9;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+    background: #FF6F61;
+    color: white;
+    font-size: 18px;
+}
+
+.controls {
+    border-style: solid;
+    border-width: thin;
+    color: white;
+    padding: 5px;
+    width: 260px;
+    height: 280px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FF6F61;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
