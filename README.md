@@ -1,6 +1,6 @@
 # [Chip-8-JS-Emulator](https://chip-8-js-noah670.herokuapp.com/)
 
-A Chip-8 emulator written in JavaScript with multiple games and demos to try out.
+A Chip-8 emulator written in JavaScript with multiple games and demos to play.
 
 ![alt-text](https://github.com/Noah670/Chip-8-JS-emulator/blob/master/display/blinky_display_demo.gif)
 
